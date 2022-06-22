@@ -1,0 +1,272 @@
+
+body {
+
+  padding-top:50px;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+a {
+
+  color:#0e48ad;
+
+}
+
+
+
+a:focus, a:hover {
+
+  color:#123294;
+
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+
+  font-family:"Source Sans Pro",sans-serif;
+  font-weight:bold;
+
+}
+
+
+
+
+.h--alt {
+
+    font-weight: 300;
+
+	margin-top:0;
+
+}
+
+ 
+
+
+
+h5 {
+
+	font-size:16px;
+
+}
+
+
+
+h6 {
+
+	font-size:14px;
+
+}
+
+
+
+a {
+
+	color:#0e48ad;
+
+}
+
+
+
+a:focus, a:hover {
+
+	color:#123294;
+
+}
+
+
+
+.w3-badge,.w3-tag,.w3-sign{background-color:#fff;color:#000;display:inline-block;padding-left:8px;padding-right:8px;text-align:center}
+.w3-badge{border-radius:50%}
+.w3-padding-tiny{padding:2px 4px!important}.w3-padding-small{padding:4px 8px!important}
+.w3-padding-medium,.w3-padding,.w3-form{padding:8px 16px!important}
+.w3-padding-large{padding:12px 24px!important}.w3-padding-xlarge{padding:16px 32px!important}
+.w3-padding-xxlarge{padding:24px 48px!important}.w3-padding-jumbo{padding:32px 64px!important}
+.w3-padding-4{padding-top:4px!important;padding-bottom:4px!important}
+.w3-padding-8{padding-top:8px!important;padding-bottom:8px!important}
+.w3-padding-12{padding-top:12px!important;padding-bottom:12px!important}
+.w3-padding-16{padding-top:16px!important;padding-bottom:16px!important}
+.w3-padding-24{padding-top:24px!important;padding-bottom:24px!important}
+.w3-padding-32{padding-top:32px!important;padding-bottom:32px!important}
+.w3-padding-48{padding-top:48px!important;padding-bottom:48px!important}
+.w3-padding-64{padding-top:64px!important;padding-bottom:64px!important}
+.w3-padding-128{padding-top:128px!important;padding-bottom:128px!important}
+.w3-padding-0{padding:0!important}
+.w3-padding-top{padding-top:8px!important}.w3-padding-bottom{padding-bottom:8px!important}
+.w3-padding-left{padding-left:16px!important}.w3-padding-right{padding-right:16px!important}
+.w3-white,.w3-hover-white:hover{color:#000!important;background-color:#fff!important}
+
+
+/* -------------------*/
+
+
+/*-----------------------*/
+
+/*----- TESTIMONIAL -----*/
+
+/*-----------------------*/
+
+
+
+.testimonial {
+
+	padding: 30px 15px 30px 30px;
+
+	border-style: solid;
+
+	border-width:5px 1px 1px;
+
+	margin:15px 0;
+
+  border-color: #6caddf #ddd #ddd;
+
+}
+
+
+
+.testimonial img {
+
+    border: 0px solid #ddd;
+
+    margin: auto auto 15px;
+
+    width: 100%;
+
+}
+
+
+
+.testimonial blockquote {
+
+    font-family: "helvetica";
+
+    font-size: 16px;
+
+    font-weight: 300;
+
+}
+
+
+
+.testimonial blockquote:before {
+
+	    color: #ccc;
+
+	    content: open-quote;
+
+	    font-size: 5em;
+
+	    line-height: 0em;
+
+	    margin-right: 0.1em;
+
+	    vertical-align: -0.4em;
+
+}
+
+
+
+.testimonial blockquote:after {
+
+		content: close-quote;
+
+		visibility:hidden;
+
+}
+
+
+
+.col-md-3 .testimonial {
+
+    padding: 30px;
+
+}
+
+
+
+.col-md-4 .testimonial .col-md-5,
+.col-md-3 .testimonial .col-md-5,
+.col-md-2 .testimonial .col-md-5,
+.col-md-1 .testimonial .col-md-5 {
+
+	width:100%;
+
+	margin: 0 0 15px;
+
+}
+
+
+
+.col-md-4 .testimonial .col-md-7,
+.col-md-3 .testimonial .col-md-7,
+.col-md-2 .testimonial .col-md-7,
+.col-md-1 .testimonial .col-md-7 {
+
+    padding: 0;
+
+    width: 100%;
+
+}
+
+
+.testimonial blockquote cite {
+
+    float: left;
+
+    font-weight: 600;
+
+    margin-top: 10px;
+
+    width: 100%;
+
+}
+
+
+
+
+.carousel-indicators .active {
+  background: #6caddf;
+}
+
+
+
+
+.carousel-indicators li {
+  border :1px solid #ccc;
+} 
+
+
+
+.carousel-control {
+ color:#31708f; width:5%;
+}
+
+
+
+.carousel-control:hover, .carousel-control:focus {
+ color:#31708f;
+}
+
+
+
+.carousel-control.left, .carousel-control.right {
+ background-image: none; 
+}
+
+
+
+
+
+
+@media (min-width:992px) {
+
+	.testimonial img {
+
+		max-width:200px;
+	
+        }
+	
+
+}
